@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif ;
+    box-sizing:border-box;
+}
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .cardImage{
+    transition: transform 0.5s;
+  }
+  .cardImage:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
